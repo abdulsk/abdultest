@@ -5,6 +5,7 @@ pipeline {
                
          steps {
             echo "Build  Environmentt level"
+            sh "ls -l"
         }
       }
    
@@ -12,6 +13,7 @@ pipeline {
        
          steps {
             echo "Build VM  level"
+            sh "ls -l"
          }
       }
        
